@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#D2D7D3"
+    tools:context="com.ultra.praktikum_ppb_agus.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agus Setyawan"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#049372"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="140411100064"
+        android:textColor="#049372"
+        android:paddingBottom="10dp"/>
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#1E824C"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Modul Activity"
+        android:textColor="#16A085"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modul 1 : Pengenalan Lingkungan Android Dan Struktur Data"
+                android:id="@+id/button1"
+                android:background="#16A085"
+                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modul 2 "
+                android:id="@+id/button2"
+                android:background="#16A085"
+                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modul 3 "
+                android:id="@+id/button3"
+                android:background="#16A085"
+                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modul 4 "
+                android:id="@+id/button4"
+                android:background="#16A085"
+                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modul 5 "
+                android:id="@+id/button5"
+                android:background="#16A085"
+                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modul 6 "
+                android:id="@+id/button6"
+                android:background="#16A085"
+                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modul 7 "
+                android:id="@+id/button7"
+                android:background="#16A085"
+                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modul 8 "
+                android:id="@+id/button8"
+                android:background="#16A085"
+                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
