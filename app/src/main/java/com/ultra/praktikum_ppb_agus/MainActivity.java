@@ -21,5 +21,23 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(tekanbt1);
             }
         });
+
+        Button Modul2 = (Button) findViewById(R.id.button2);
+        Modul2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent tekanbt2 = new Intent(getApplicationContext(),TampilModulDua.class);
+                startActivity(tekanbt2);
+            }
+        });
+
+        Button Modul3 = (Button) findViewById(R.id.button3);
+        Modul3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent tekanbt3 = new Intent(getApplicationContext(),TampilModulTiga.class);
+                startActivity(tekanbt3);
+            }
+        });
     }
 }

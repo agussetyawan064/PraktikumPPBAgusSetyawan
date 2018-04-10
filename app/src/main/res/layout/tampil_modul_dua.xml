@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#D2D7D3">
+
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World"
+        android:fontFamily="arial"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnFontSize"
+        android:textColor="#FFFFFF"
+        android:background="#16A085"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Change Font Size"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/btnColor"
+        android:textColor="#FFFFFF"
+        android:background="#16A085"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Change Color"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/btnChangeText"
+        android:textColor="#FFFFFF"
+        android:background="#16A085"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Change Text"
+        android:textSize="25sp"/>
+</LinearLayout>

@@ -18,6 +18,9 @@
 
         <activity android:name=".TombolModulSatu"/>
         <activity android:name=".TampilModulSatu"/>
+        <activity android:name=".TampilModulDua"/>
+        <activity android:name=".TampilModulTiga"/>
+        <activity android:name=".TampilModulTigaData"/>
     </application>
 
 </manifest>

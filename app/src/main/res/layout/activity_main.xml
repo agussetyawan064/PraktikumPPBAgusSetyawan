@@ -62,7 +62,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Modul 2 "
+                android:text="Modul 2 : Aplikasi Android dengan Menggunakan Komponen Antarmuka, Huruf dan Warna "
                 android:id="@+id/button2"
                 android:background="#16A085"
                 android:textColor="#FFFFFF"
@@ -71,7 +71,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Modul 3 "
+                android:text="Modul 3 : Aplikasi Android dengan Layout dan Pendengar Event  "
                 android:id="@+id/button3"
                 android:background="#16A085"
                 android:textColor="#FFFFFF"
