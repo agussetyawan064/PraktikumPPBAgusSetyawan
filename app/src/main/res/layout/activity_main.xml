@@ -80,7 +80,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Modul 4 "
+                android:text="Modul 4 : Aplikasi Android dengan ListView "
                 android:id="@+id/button4"
                 android:background="#16A085"
                 android:textColor="#FFFFFF"

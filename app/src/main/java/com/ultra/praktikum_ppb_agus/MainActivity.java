@@ -39,5 +39,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(tekanbt3);
             }
         });
+
+        Button Modul4 = (Button) findViewById(R.id.button4);
+        Modul4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent tekanbt4 = new Intent(getApplicationContext(),TampilModulEmpat.class);
+                startActivity(tekanbt4);
+            }
+        });
     }
 }
